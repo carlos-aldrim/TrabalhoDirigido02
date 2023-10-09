@@ -8,7 +8,7 @@
 
 ## Aplicação
 
-- **Biblioteca:** Essa aplicação é um buscador de livros que se comunica com um Web Service através de requisições GET. A interface do usuário (UI) contém um campo de texto para a "chave de busca" e um botão "buscar". Quando o usuário clica em "buscar", é feita uma requisição GET para a API com a URI https://hn.algolia.com/api/v1/search?query=X, onde X é o valor da "chave de busca". Os resultados da busca, que incluem informações sobre os livros, são tratados e exibidos na UI.
+Essa aplicação é um buscador de livros que se comunica com um Web Service através de requisições GET. A interface do usuário (UI) contém um campo de texto para a "chave de busca" e um botão "buscar". Quando o usuário clica em "buscar", é feita uma requisição GET para a API com a URI https://hn.algolia.com/api/v1/search?query=X, onde X é o valor da "chave de busca". Os resultados da busca, que incluem informações sobre os livros, são tratados e exibidos na UI.
 
 Além disso, a aplicação oferece a funcionalidade de atribuir uma nota de 1 a 5 a cada livro listado. Cada livro na lista possui informações como autor, título, URL e a nota, representada por estrelas, que o usuário pode definir. A interface permite que o usuário avalie os livros usando um sistema de estrelas, proporcionando uma experiência interativa e informativa ao usuário.
 
