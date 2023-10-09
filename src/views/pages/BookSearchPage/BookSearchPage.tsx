@@ -56,7 +56,7 @@ export const BookSearchPage = () => {
                   <Text style={styles.textBookData}>{result.url}</Text>
                 </View>
                 <View style={styles.stars}>
-                    <StarRating
+                  <StarRating
                     disabled={false}
                     maxStars={5}
                     rating={searchRating(result.objectID)}
@@ -64,7 +64,7 @@ export const BookSearchPage = () => {
                     starSize={20}
                     fullStarColor={"#ffc400"}
                     starStyle={{ margin: 2, padding: 0 }}
-                    />
+                  />
                 </View>
               </View>
             ))

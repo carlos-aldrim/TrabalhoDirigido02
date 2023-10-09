@@ -14,10 +14,10 @@ export const BookSearchProvider: React.FC<{ children: React.ReactNode }> = ({
   const searchBooks = async () => {
     setLoading(true);
     try {
-      if(query.length === 0) {
+      if (query.length === 0) {
         setResults([]);
         return;
-      };
+      }
       const response = await axios.get(`${BASE_URL}${query}`);
       setResults(response.data.hits);
       setQuery("");
@@ -27,7 +27,6 @@ export const BookSearchProvider: React.FC<{ children: React.ReactNode }> = ({
       setLoading(false);
     }
   };
-  
 
   const addRating = (objectID: string, rate: number) => {
     const updatedRating = rating.map((item) => {
@@ -48,8 +47,6 @@ export const BookSearchProvider: React.FC<{ children: React.ReactNode }> = ({
     }
     setRating(updatedRating);
   };
-  
-  
 
   const searchRating = (objectID: string) => {
     const foundRating = rating.find((item) => item.objectID === objectID);
@@ -67,7 +64,7 @@ export const BookSearchProvider: React.FC<{ children: React.ReactNode }> = ({
         addRating,
         searchRating,
         rating,
-        loading
+        loading,
       }}
     >
       {children}
