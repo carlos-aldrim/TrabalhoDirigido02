@@ -20,8 +20,8 @@
 
 ## Capturas de Tela
 
-![Captura de Tela 01](https://github.com/carlos-aldrim/TrabalhoDirigido02/blob/main/assets/Tela01.jpg);
-![Captura de Tela 02](https://github.com/carlos-aldrim/TrabalhoDirigido02/blob/main/assets/Tela02.jpg);
+![Captura de Tela 01](https://github.com/carlos-aldrim/TrabalhoDirigido02/blob/master/assets/Tela01.jpg);
+![Captura de Tela 02](https://github.com/carlos-aldrim/TrabalhoDirigido02/blob/master/assets/Tela02.jpg);
 
 ## Tecnologias Utilizadas
 
